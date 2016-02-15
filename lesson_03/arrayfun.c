@@ -49,7 +49,7 @@ int main() {
 	init(myarray);
 	printArray(myarray);
 
-	printArrayPointerFunzionante(myarray, sizeof(a)/sizeof(int));
+	printArrayPointerFunzionante(myarray, sizeof(myarray)/sizeof(int));
 
 
 	return EXIT_SUCCESS; // 0

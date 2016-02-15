@@ -103,8 +103,12 @@ int main() {
 
 	// esempio uso libreria standard di concatenazione
 
-	char dest[strlen(s1) + strlen(s2) + 1];
+	char dest[strlen(s1) + strlen(s2) + 1 + 1];
+
+	dest[strlen(s1) + 1] = ' ';
+	dest[strlen(s1) + 2] = 0;
 	strcpy(dest, s1);
+	strcat(dest, " ");
 	strcat(dest, s2);
 
 	printf("Uso libreria: [%s] + [%s] = [%s]\n", s1, s2, dest);
