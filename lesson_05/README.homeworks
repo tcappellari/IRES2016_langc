@@ -1,0 +1,31 @@
+/*
+partendo dal file Person.c rimuovere il main e creare un file person.h 
+che contiene la definizione di typedef struct {...} Person
+le funzioni Person_setName, Person_setSurname e Person_getBigliettoDaVisita
+
+creo file azienda.h e azienda.c
+Creo struttura dati azienda che contiene:
+* piva
+* ragione sociale
+
+e ha funzioni:
+- setPIVA
+- setRagioneSociale
+- getTimbro, quest'ultima "restituisce" la dicitura:
+	RagioneSociale inserita
+	PIVA: pivainserita 
+
+creo file testazienda.c che contiene main e:
+- creo azieda, imposto piva e ragione sociale, stampo a console il timbro.
+
+II)
+Modificare la struttura dati Azienda, inserendo i Dipendenti.
+Un dipendente non è altro che un array di Persone!!!
+SIII!
+Inserire funzione "su azienda" che stampa tutti i Biglietti da visita dei dipendenti.
+Inserire funzione "su azienda" che restituisce i Biglietti da visita dei dipendenti e il suo Timbro.
+*/
+
+
+
+
