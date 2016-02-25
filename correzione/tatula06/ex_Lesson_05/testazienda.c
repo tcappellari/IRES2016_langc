@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "person.h"
+#include "azienda.h"
+
+int main() {
+	DatiAzienda az;
+	DatiAzienda_setPIVA(&az, "12345678900"); // m.setName("Mario"); in OO
+	DatiAzienda_setRagioneSociale(&az, "Scarl");
+
+	char timbro[50];
+	DatiAzienda_getTimbro(&az, timbro);
+
+	printf("Azienda comm.le Bevilacqua\n");
+	printf("%s\n", timbro);
+
+return EXIT_SUCCESS;
+}

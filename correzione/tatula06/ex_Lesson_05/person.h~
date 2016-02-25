@@ -1,0 +1,15 @@
+#ifndef PRIMO_H
+#define PRIMO_H
+
+typedef struct {
+	char name[20];
+	char surname[20];
+	//int age;
+
+} Person;
+
+void Person_setName(Person* this, char* name);
+void Person_setSurname(Person* this, char* surname);
+void Person_getBigliettoDaVisita(Person* this, char* bv);
+
+#endif // PRIMO_H
