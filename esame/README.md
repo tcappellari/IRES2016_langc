@@ -26,16 +26,16 @@ Stampare a console l’array risultate dalla chiamata alla funzione zip.
 
 ### Esercizio 3 (2.5 punti)
 Creare due funzioni, somma e moltiplicazione.
-La prima accetta due interi e restituisce la loro somma.
-La seconda accetta due interi e restituisce il loro prodotto, senza usare l’operatore *, ma basandosi sulla funzione somma precedentemente creata.
+La prima accetta due interi positivi e restituisce la loro somma.
+La seconda accetta due interi positivi e restituisce il loro prodotto, senza usare l’operatore *, ma basandosi sulla funzione somma precedentemente creata.
 
 Implementare la prima funzione (somma) su un file denominato: somma.c e dichiararla su un file somma.h
 Implementare la seconda funzione (moltiplicazione) su un file denominato: moltiplicazione.c e  dichiararla su un file moltiplicazione.h
 Creare infine un file main.c contenente la funzione main che stampa a console il risultato del prodotto di 3 per 5 e del prodotto di 0 e 15 utilizzando la funzione moltiplicazione.
 
 ### Esercizio 4 (2.5 punti)
-Creare una struttura Studente caratterizzata da un cognome e dal numero di esami sostenuti.
-Implementare le funzioni setCognome, getCognome, setNumeroEsami e getNumeroEsami che ne impostano e restituiscano rispettivamente il cognome e il numero di esami dello studente. Nota: non porrere limiti alla lunghezza del cognome.
+Creare una struttura Studente caratterizzata da un cognome e dal voto ottenuto.
+Implementare le funzioni setCognome, getCognome, setVoto e getVoto che ne impostano e restituiscano rispettivamente il cognome e il voto ottenuto dallo studente. Nota: non porrere limiti alla lunghezza del cognome.
 
 Creare un array di 100000 Studenti così denominati:
 ```sh
