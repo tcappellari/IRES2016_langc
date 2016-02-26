@@ -65,15 +65,14 @@ Calcolare la somma dei voti degli studenti.
 
 ## Criteri di assegnazione voto
 Il voto terrà conto dei seguenti parametri:
-Sinstassi (20%)
-utilizzo di nomi delle variabili e funzioni significative
-identazione secondo le convenzioni viste in classe
-uso di eventuali commenti adeguato
-Semantica (45%)
-uso appropriato dei costrutti di C e in particolare di:
-passaggio parametri funzioni, 
-puntatori, strutture
-creazione memoria dinamica
-
-Esecuzione e Test (35%)
-correttezza risultato 
+* Sinstassi (20%)
+    * utilizzo di nomi delle variabili e funzioni significative
+    * identazione secondo le convenzioni viste in classe
+    * uso di eventuali commenti adeguato
+* Semantica (45%)
+    * uso appropriato dei costrutti di C e in particolare di:
+    * passaggio parametri funzioni, 
+    * puntatori, strutture
+    * creazione memoria dinamica
+* Esecuzione e Test (35%)
+    * correttezza risultato 
